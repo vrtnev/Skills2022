@@ -1,0 +1,43 @@
+---
+  - name:  INSTALLING THE APACHE2 WEBSERVER WITH SPECIFIC PORTS
+    hosts: webservers
+    become: yes
+    
+    tasks:
+      - name: INSTALL APACHE2
+        apt: name=apache2 update_cache=yes state=latest
+
+      - name: ENABLE MOD_REWRITE
+        apache2_module: name=rewrite state=present
+        notify:
+          - RESTART APACHE2
+        
+      
+      - name: CHANGING PORTS TO SPECIFIC NUMBER IN PORTS.CONF
+        become: yes
+        tags: ports
+        lineinfile:
+          path: /etc/apache2/ports.conf
+          regexp: '^Listen \d+'
+          line: 'Listen 8808'
+          state: present
+      
+      - name: CHANGING PORTS TO SPECIFIC NUMBER IN 000-DEFAULT.CONF
+        become: yes
+        lineinfile:
+          path: /etc/apache2/sites-enabled/000-default.conf
+          regexp: '^<VirtualHost \*:\d+>'
+          line: '<VirtualHost *:8808>'
+          state: present
+        
+      - name: run echo command
+        command: /bin/echo hello world
+
+        register: portsout
+
+        notify:
+          - RESTART APACHE2
+       
+    handlers:
+      - name: RESTART APACHE2
+        service: name=apache2 state=restarted
