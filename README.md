@@ -30,3 +30,4 @@ It was important to write yaml file properly, because every space is significant
 ![Task2_5](https://github.com/vrtnev/Skills2022/blob/main/Screenshots/Task2_5.png)
 ![Task2_6](https://github.com/vrtnev/Skills2022/blob/main/Screenshots/Task2_6.png)
 ![Task2_7](https://github.com/vrtnev/Skills2022/blob/main/Screenshots/Task2_7.png)
+![Task2_8](https://github.com/vrtnev/Skills2022/blob/main/Screenshots/Task2_8.png)
