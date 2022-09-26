@@ -9,3 +9,4 @@ Firstly, I created new github repository, then created new SSH connection for DE
 ### Task troubleshooting
 Where is no troubles with completing this task
 ### Task verification
+![This is an image](https://github.com/vrtnev/Skills2022/blob/main/Screenshots/Task1_1.png)
