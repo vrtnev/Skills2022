@@ -20,6 +20,7 @@ Firstry, I enabled ssh server on DEVASC-LABVM. Then I opened /labs/devnet-src/an
 I specified one web server in hosts file, and added parameters in ansible.cfg file.
 After it I created playbook file with name test_apache_playbook.yaml, in which I added information to install and test webservers with a ping command.
 Filanny, this playbook was runned successfully.
+All related files is in Task 2 folder in this repository.
 ### Task troubleshooting
 It was important to write yaml file properly, because every space is significant in this file.
 ### Task verification
@@ -31,3 +32,16 @@ It was important to write yaml file properly, because every space is significant
 ![Task2_6](https://github.com/vrtnev/Skills2022/blob/main/Screenshots/Task2_6.png)
 ![Task2_7](https://github.com/vrtnev/Skills2022/blob/main/Screenshots/Task2_7.png)
 ![Task2_8](https://github.com/vrtnev/Skills2022/blob/main/Screenshots/Task2_8.png)
+## Task 3
+### Task name
+Docker
+### Task preparation
+In this task a docker package was used
+### Task implementation
+In this task I used docker pull command with cturra/ntp container. After it I just runned this container.
+### Task troubleshooting
+It's important to use sudo with a lot of docker commands because root is required for it.
+### Task verification
+![Task3_1](https://github.com/vrtnev/Skills2022/blob/main/Screenshots/Task3_1.png)
+![Task3_2](https://github.com/vrtnev/Skills2022/blob/main/Screenshots/Task3_2.png)
+![Task3_3](https://github.com/vrtnev/Skills2022/blob/main/Screenshots/Task3_3.png)
