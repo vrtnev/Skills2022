@@ -1,4 +1,4 @@
-# Skills2022 - Nikolai Vorotnev
+# Skills2022v2 - Nikolai Vorotnev
 ## Task 1
 ### GitHub Skills Test
 ### Task preparation
