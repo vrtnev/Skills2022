@@ -84,3 +84,4 @@ There was some troubles with a code syntax, but it was resolved in process.
 ![Task5_1](https://github.com/vrtnev/Skills2022/blob/main/Screenshots/Task5_1.png)
 ![Task5_2](https://github.com/vrtnev/Skills2022/blob/main/Screenshots/Task5_2.png)
 ![Task5_3](https://github.com/vrtnev/Skills2022/blob/main/Screenshots/Task5_3.png)
+Full code you can find in Task5/module.py
