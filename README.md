@@ -62,3 +62,25 @@ On the running step there was a problem: Jenkins didn't recognize "docker" comma
 ![Task4_4](https://github.com/vrtnev/Skills2022/blob/main/Screenshots/Task4_4.png)
 ![Task4_5](https://github.com/vrtnev/Skills2022/blob/main/Screenshots/Task4_5.png)
 ![Task4_6](https://github.com/vrtnev/Skills2022/blob/main/Screenshots/Task4_6.png)
+## Task 5
+### Programming and Unit Testing
+### Task preparation
+To do this task it's necessary to prepare a text editor and python.
+### Task implementation
+First of all, let's install a python (Screenshot 1).
+We need to write a code for a module. The first task is to write a function that return you the count of unique elements in a given 
+numerical list. Let's write it.
+You can see the code of a first program on Screenshot 2.
+
+Then we need to write a next program:
+Given a list of people objects, create a function that sorts the list by an 
+attribute name. The attribute to sort by will be given as a string. 
+Notes: Sort the list in ASCENDING order, all objects will be valid.
+Let's write a code for it.
+You can see a result on a Screenshot 3.
+### Task troubleshooting
+There was some troubles with a code syntax, but it was resolved in process.
+### Task verification
+![Task5_1](https://github.com/vrtnev/Skills2022/blob/main/Screenshots/Task5_1.png)
+![Task5_2](https://github.com/vrtnev/Skills2022/blob/main/Screenshots/Task5_2.png)
+![Task5_3](https://github.com/vrtnev/Skills2022/blob/main/Screenshots/Task5_3.png)
