@@ -4,7 +4,8 @@
 ### Task preparation
 To do this task I prepared my github account and created a directory in DEVASC-LABVM
 ### Task implementation
-Firstly, I created new github repository, then created new SSH connection for DEVASC-LABVM, and finally cloned repository to the machine
+Firstly, I created new github repository, then created new SSH connection for DEVASC-LABVM, and finally cloned repository to the machine.
+And the last step - I renamed repository from "Skills2022" to "Skills2022v2" in GitHub web interface.
 ### Task troubleshooting
 Where is no troubles with completing this task
 ### Task verification
