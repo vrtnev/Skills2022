@@ -36,13 +36,15 @@ It was important to write yaml file properly, because every space is significant
 ### Task preparation
 In this task a docker package was used
 ### Task implementation
-In this task I used docker pull command with cturra/ntp container. After it I just runned this container.
+The first step is to go to the Dockerhub website. (Screenshot 1). Here we need to search for Alpine server. Let's find and install it (Screenshoot 2 and Screenshoot 3).
+Finally, let's test our progress by "docker run alpine" command to make sure that everything works properly. As we can see, there is no error messages, so task is done successfully (Screenshot 4).
 ### Task troubleshooting
 It's important to use sudo with a lot of docker commands because root is required for it.
 ### Task verification
 ![Task3_1](https://github.com/vrtnev/Skills2022/blob/main/Screenshots/Task3_1.png)
 ![Task3_2](https://github.com/vrtnev/Skills2022/blob/main/Screenshots/Task3_2.png)
 ![Task3_3](https://github.com/vrtnev/Skills2022/blob/main/Screenshots/Task3_3.png)
+![Task3_4](https://github.com/vrtnev/Skills2022/blob/main/Screenshots/Task3_4.png)
 ## Task 4
 ### Jenkins
 ### Task preparation
