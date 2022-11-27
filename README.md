@@ -1,18 +1,17 @@
-# Skills2022 - Nikolai Vorotnev
+# Skills2022v2 - Nikolai Vorotnev
 ## Task 1
-### Task name
-GitHub Skills Test
+### GitHub Skills Test
 ### Task preparation
 To do this task I prepared my github account and created a directory in DEVASC-LABVM
 ### Task implementation
-Firstly, I created new github repository, then created new SSH connection for DEVASC-LABVM, and finally cloned repository to the machine
+Firstly, I created new github repository, then created new SSH connection for DEVASC-LABVM, and finally cloned repository to the machine.
+And the last step - I renamed repository from "Skills2022" to "Skills2022v2" in GitHub web interface.
 ### Task troubleshooting
 Where is no troubles with completing this task
 ### Task verification
 ![Task1_1](https://github.com/vrtnev/Skills2022/blob/main/Screenshots/Task1_1.png)
 ## Task 2
-### Task name
-Ansible Skills Test
+### Ansible Skills Test
 ### Task preparation
 To complete this task I prepared an ansible and VS code on the machine
 ### Task implementation
@@ -33,8 +32,7 @@ It was important to write yaml file properly, because every space is significant
 ![Task2_7](https://github.com/vrtnev/Skills2022/blob/main/Screenshots/Task2_7.png)
 ![Task2_8](https://github.com/vrtnev/Skills2022/blob/main/Screenshots/Task2_8.png)
 ## Task 3
-### Task name
-Docker
+### Docker
 ### Task preparation
 In this task a docker package was used
 ### Task implementation
@@ -45,3 +43,20 @@ It's important to use sudo with a lot of docker commands because root is require
 ![Task3_1](https://github.com/vrtnev/Skills2022/blob/main/Screenshots/Task3_1.png)
 ![Task3_2](https://github.com/vrtnev/Skills2022/blob/main/Screenshots/Task3_2.png)
 ![Task3_3](https://github.com/vrtnev/Skills2022/blob/main/Screenshots/Task3_3.png)
+## Task 4
+### Jenkins
+### Task preparation
+To do this task it's necessary to install java first. The second step was to install Jenkins
+### Task implementation
+After installing Jenkins, there was a first installation of it.
+After this there was a step to install Docker Plugin in Jenkins.
+The next step was to create a pipeline and run it.
+### Task troubleshooting
+On the running step there was a problem: Jenkins didn't recognize "docker" command. Do this command was replaced by "any".
+### Task verification
+![Task4_1](https://github.com/vrtnev/Skills2022/blob/main/Screenshots/Task4_1.png)
+![Task4_2](https://github.com/vrtnev/Skills2022/blob/main/Screenshots/Task4_2.png)
+![Task4_3](https://github.com/vrtnev/Skills2022/blob/main/Screenshots/Task4_3.png)
+![Task4_4](https://github.com/vrtnev/Skills2022/blob/main/Screenshots/Task4_4.png)
+![Task4_5](https://github.com/vrtnev/Skills2022/blob/main/Screenshots/Task4_5.png)
+![Task4_6](https://github.com/vrtnev/Skills2022/blob/main/Screenshots/Task4_6.png)
