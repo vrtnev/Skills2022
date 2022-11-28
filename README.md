@@ -85,3 +85,5 @@ There was some troubles with a code syntax, but it was resolved in process.
 ![Task5_2](https://github.com/vrtnev/Skills2022/blob/main/Screenshots/Task5_2.png)
 ![Task5_3](https://github.com/vrtnev/Skills2022/blob/main/Screenshots/Task5_3.png)
 Full code you can find in Task5/module.py
+And finally, let's add a unit tests code:
+![Task5_4](https://github.com/vrtnev/Skills2022/blob/main/Screenshots/Task5_4.png)
